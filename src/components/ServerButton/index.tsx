@@ -1,18 +1,31 @@
 import React from "react"
-import { Container } from "./styles"
+import Logo from "../../assets/logo.svg"
 
-interface Props {
+import { Button } from "./styles"
+
+export interface Props {
+  selected?: boolean
   isHome?: boolean
-  hasNotification?: boolean
+  hasNotifications?: boolean
   mentions?: number
 }
 
 const ServerButton: React.FC<Props> = ({
+  selected,
   isHome,
-  hasNotification,
+  hasNotifications,
   mentions,
 }) => {
-  return <Container></Container>
+  return (
+    <Button
+      isHome={isHome}
+      hasNotifications={hasNotifications}
+      mentions={mentions}
+      className={selected ? "active" : ""}
+    >
+      {isHome && <img src={Logo} alt={"Logo"} />}
+    </Button>
+  )
 }
 
 export default ServerButton
