@@ -3,6 +3,7 @@ import styled from "styled-components"
 // SL - Server List
 // SN - Server Name
 // CI - Channel Info
+// CL - Channel List
 // CD - Channel Data
 // UL - User List
 // UI - User Info
