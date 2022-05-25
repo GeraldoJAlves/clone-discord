@@ -1,7 +1,13 @@
 import React from "react"
 
-function App() {
-  return <h1>App</h1>
-}
+import { Layout } from "./components"
+import { GlobalStyle } from "./styles"
+
+const App: React.FC = () => (
+  <>
+    <Layout />
+    <GlobalStyle />
+  </>
+)
 
 export default App
