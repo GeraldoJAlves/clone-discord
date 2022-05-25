@@ -14,7 +14,7 @@ export default createGlobalStyle`
     outline: 0;
     background: none;
     font-family: 'Roboto', sans-serif;
-    transition: color .2s ease-out;
+    /* transition: color .2s ease-out; */
   }
 
   :root {
