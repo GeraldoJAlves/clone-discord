@@ -1,7 +1,7 @@
 import React from "react"
 
-import { Grid } from "./styles"
 import { ServerList, ServerName, ChannelInfo, ChannelList } from ".."
+import { Grid } from "./styles"
 
 const Layout: React.FC = () => {
   return (

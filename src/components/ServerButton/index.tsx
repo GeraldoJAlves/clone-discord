@@ -1,7 +1,7 @@
 import React from "react"
-import Logo from "../../assets/logo.svg"
 
 import { Button } from "./styles"
+import Logo from "../../assets/logo.svg"
 
 export interface Props {
   selected?: boolean

@@ -1,5 +1,4 @@
 import styled from "styled-components"
-
 import { HiOutlineHashtag } from "react-icons/hi"
 
 export const Container = styled.div`
@@ -8,7 +7,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: start;
-  flex-direction: row;
   padding: 0 17px;
 
   background-color: var(--primary);

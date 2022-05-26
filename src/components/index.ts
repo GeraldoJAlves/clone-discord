@@ -4,6 +4,7 @@ import ServerName from "./ServerName"
 import ChannelData from "./ChannelData"
 import ChannelInfo from "./ChannelInfo"
 import ChannelList from "./ChannelList"
+import ChannelButton from "./ChannelButton"
 import UserInfo from "./UserInfo"
 import UserList from "./UserList"
 import ServerButton from "./ServerButton"
@@ -18,4 +19,5 @@ export {
   UserInfo,
   UserList,
   ServerButton,
+  ChannelButton,
 }
