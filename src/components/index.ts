@@ -6,6 +6,7 @@ import ChannelData from "./ChannelData"
 import ChannelInfo from "./ChannelInfo"
 import ChannelList from "./ChannelList"
 import ChannelButton from "./ChannelButton"
+import ChannelMessage, { Mention } from "./ChannelMessage"
 import UserInfo from "./UserInfo"
 import UserList from "./UserList"
 
@@ -18,6 +19,8 @@ export {
   ChannelInfo,
   ChannelList,
   ChannelButton,
+  ChannelMessage,
   UserInfo,
   UserList,
+  Mention,
 }
