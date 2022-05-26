@@ -19,8 +19,8 @@ const Layout: React.FC = () => {
       <ChannelInfo />
       <ChannelList />
       <UserInfo userName={"Geraldo Alves"} userId={122} />
-      <UserList />
       <ChannelData />
+      <UserList />
     </Grid>
   )
 }
